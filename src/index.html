@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio :-Bhuwan Thapa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css">
+    <style>
+      #main .navContainer li .home{
+        text-decoration: underline;
+        color: #8be5c1;
+      }
+    </style>
+     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./matter.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+      <div class="absolute inset-0 z-1" id="wrapper-canvas">
+  
+      </div>
+    <div id="main">
+      <div class="navContainer z-2">
+        <h1 class="z-2 pointer-events-none text-[3vh]">
+          Bhuwan Thapa
+          <div class="dot pointer-events-none"></div>
+        </h1>
+        <li>
+          <a class="z-[9] home" href="index.html">Home</a>
+          <a class="z-[9] service" href="service.html">Services</a>
+          <a class="z-[9] contact" href="contact.html">Contact</a>
+          <a class="z-[9] project" href="project.html">Projects</a>
+          <button class="z-1 btn"><a class="text-[#00ff99] relative z-10" href="contact.html">Hire Me</a></button>
+        </li>
+        <i id="menuBtn" class="bi bi-list"></i>
+        <div class="menu z-[99]">
+          <div class="cross">
+            <i id="crossBtn" class=" bi bi-x-octagon"></i>
+          </div>
+          <a class="home" href="index.html">Home</a>
+          <a class="service" href="service.html">Services</a>
+          <a class="contact" href="contact.html">Contact</a>
+          <a class="project" href="project.html">Projects</a>
+        </div>
+      </div>
+      <div class="layout">
+        <div class="leftSection">
+          <h4 class="z-2 pointer-events-none">Software Developer</h4>
+          <h1 class="z-2 pointer-events-none">Hello,I am</h1>
+          <h1 class="z-2 pointer-events-none" id="name">Bhuwan Thapa</h1>
+          <p class="z-2">
+            I am a Front-end Developer . I can Make all kinds of websites that fullfill the present user experience.
+            I have 1 year experience as a front-end developer with some basic knowledge about UI and UX Design.
+          </p>
+          <div class="data">
+            <button class="z-2 btn1">
+              <a class="relative z-20" href="#">DOWNLOAD CV <i class="text-[1.7vh]bi bi-download"></i></a> 
+            </button>
+            <a class="links z-1" href="#"><i class="z-10 relative icon bi bi-facebook"></i></a>
+            <a class="links z-1" href="#"><i class="z-10 relative icon bi bi-instagram"></i></a>
+            <a class="links z-1" href="#"><i class="z-10 relative icon bi bi-youtube"></i></a>
+            <a class="links z-1" href="#"><i class="z-10 relative icon bi bi-twitter"></i></a>
+          </div>
+        </div>
+        <div class="rightSection">
+          <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0yMY9uvPcnYB2_y7yG-fQj6ZCDhHSzuH7xA&s" alt=""> --> -->
+           <div class="image z-2 pointer-events-none">
+            <div class="circle z-2 pointer-events-none"></div>
+            <img class="z-2 pointer-events-none" src="./assets/image.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    
+      <div class="animation z-[999]">
+       <div class="line1"></div>
+       <div class="line2"></div>
+       <div class="line3"></div>
+       <div class="line4"></div>
+       <div class="line5"></div>
+       <div class="line6"></div>
+       <div class="line7"></div>
+       <div class="line8"></div>
+     </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+    <script src="script.js"></script>
+  </body>
+</html>
